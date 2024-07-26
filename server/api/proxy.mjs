@@ -1,7 +1,7 @@
 import express from "express";
 import Replicate from "replicate";
 const replicate = new Replicate({
-  auth: "test",
+  auth: process.env.STABILITY_AI_TOKEN,
 });
 
 const router = express.Router();
