@@ -18,7 +18,8 @@ nav .icon-area {
   z-index: 100;
 }
 
-nav .icon-area svg {
+nav .icon-area svg,
+nav .icon-area > div {
   position: absolute;
   top: 20px;
   right: 20px;
