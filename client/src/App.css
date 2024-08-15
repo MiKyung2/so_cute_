@@ -6,57 +6,6 @@
   align-items: center;
 }
 
-nav {
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-nav .icon-area {
-  position: relative;
-  cursor: pointer;
-  z-index: 100;
-}
-
-nav .icon-area svg,
-nav .icon-area > div {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 40px;
-}
-
-nav .menu {
-  position: absolute;
-  top: 0;
-  right: -460px;
-  box-sizing: border-box;
-  padding: 80px 20px 20px 40px;
-  width: 460px;
-  height: 100vh;
-  background: #f3b0a7;
-  transition: right 0.3s;
-}
-
-.menu.show {
-  right: 0;
-}
-
-.menu ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.menu ul img {
-  width: 100%;
-}
-
-nav .menu .menu-item {
-  cursor: pointer;
-  font-size: 24px;
-  font-weight: 600;
-}
-
 .imageBox {
   position: absolute;
   top: 0;
