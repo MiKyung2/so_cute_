@@ -1,8 +1,8 @@
 import express from "express";
-import proxy from "./api/proxy.mjs";
+import proxy from "./src/routes/api/proxy.mjs";
 
 const app = express();
-const port = 5000;
+const port = 5001;
 
 // app.use(bodyParser.json());
 app.use("/api/proxy", proxy);
